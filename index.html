@@ -5,11 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <title>Buttons(Tailwind)</title>
+    <title>Button(Tailwind)</title>
   </head>
   <body>
-    <button>
+    <div class="flex justify-center items-center h-screen">
+      <button
+        class="sm:text-sm  bg-black text-md text-white px-4 py-2 rounded cursor-pointer hover:bg-[rgba(0,0,0,0.9)] hover:scale-[1.2] transition active:bg-red-700"
+      >
         Click Me
-    </button>
+      </button>
+    </div>
   </body>
 </html>
